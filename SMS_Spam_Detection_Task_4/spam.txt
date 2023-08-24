@@ -1,1 +1,22 @@
+SMS Spam Detection Model
+Created by: SUVAM JANA
+
+Overview:
+Welcome to the SMS Spam Detection Model repository! 
+This project focuses on developing a machine learning model to identify and classify SMS messages as either spam or legitimate (ham). 
+Unwanted spam messages can lead to user frustration and privacy concerns. 
+This model aims to enhance user experience by filtering out such messages.
+TF-IDF text vectorizer is also used for converting the text messages into float scores so that the messages can be fed to the model.
+
+How to run:
+1. Import all the files in the directory to local folder
+2. Open powershell (or cmd prompt) window in that folder and run the command: 'streamlit run app.py'
+
+The prompt will open a browser page where users can input a particular SMS message to check whether it is a spam or legitimate message(ham).
+
+Learning Algorithm used: Logistic Regression
+Libraries used: 1. scikit-learn (for machine learning model training)
+                2. numpy (for performing operation on number arrays)
+                3. pandas (for creating and manipulating dataframes)
+                4. streamlit (for creating and hosting the web app for the model, ready to be deployed!!!!)
 
