@@ -1,1 +1,18 @@
+Customer Churn Prediction Model
+Created By: SUVAM JANA
+Overview
+This repository contains a Customer Churn Prediction model that utilizes machine learning techniques(Logistic Regression) to forecast customer churn for a bank. Customer churn, also known as customer attrition, refers to the phenomenon of customers discontinuing their relationship with a company. Predicting customer churn can help businesses take proactive measures to retain valuable customers and improve overall customer satisfaction.
 
+The model presented here is designed to analyze historical customer data and identify patterns that indicate potential churn. It employs a supervised learning approach, where the model is trained on labeled data (exited customers vs not exited customers) to learn the underlying patterns and relationships.
+
+How to run:
+1. Import all the files in the directory to local folder
+2. Open powershell (or cmd prompt) window in that folder and run the command: 'streamlit run app.py'
+
+The prompt will open a browser page where users can input relevant data to hit the predict button to see whether the customer will stay with the bank or leave.
+
+Learning Algorithm used: Logistic Regression
+Libraries used: 1. scikit-learn (for machine learning model training)
+                2. numpy (for performing operation on number arrays)
+                3. pandas (for creating and manipulating dataframes)
+                4. streamlit (for creating and hosting the web app for the model, ready to be deployed!!!!)
