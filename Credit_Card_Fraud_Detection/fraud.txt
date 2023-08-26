@@ -1,1 +1,21 @@
+Credit Card Fraud Detection Model
+Created by: SUVAM JANA
 
+Overview:
+Welcome to the Credit Card Fraud Detection Model repository! 
+This is a comprehensive and advanced credit card fraud detection model repository that employs cutting-edge machine learning techniques 
+to identify and prevent fraudulent transactions in real-time. Built with a focus on accuracy, efficiency, and adaptability, 
+this repository serves as a powerful tool for financial institutions and businesses to safeguard their transactions and protect their customers 
+from unauthorized activities.
+
+How to run:
+1. Import all the files in the directory to local folder
+2. Open powershell (or cmd prompt) window in that folder and run the command: 'streamlit run app.py'
+
+The prompt will open a browser page where users can input a particular SMS message to check whether it is a spam or legitimate message(ham).
+
+Learning Algorithm used: Logistic Regression
+Libraries used: 1. scikit-learn (for machine learning model training)
+                2. numpy (for performing operation on number arrays)
+                3. pandas (for creating and manipulating dataframes)
+                4. streamlit (for creating and hosting the web app for the model, ready to be deployed!!!!)
