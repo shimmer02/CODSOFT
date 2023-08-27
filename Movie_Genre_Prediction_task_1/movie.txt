@@ -1,1 +1,21 @@
+Movie Genre Prediction Model
+Created by: SUVAM JANA
 
+Overview:
+Welcome to the Movie Genre Prediction Model repository! 
+This project focuses on developing a machine learning model to identify and classify movie descriptions in certain genre categories. 
+This can help viewers to get an idea of what they are about to watch from just a brief synopsis in case the genre is not given for the movie. 
+This model aims to enhance user experience by letting them know more about the movie they want to watch.
+TF-IDF text vectorizer is also used for converting the descriptions into float scores so that they can be fed to the model.
+
+How to run:
+1. Import all the files in the directory to local folder
+2. Open powershell (or cmd prompt) window in that folder and run the command: 'streamlit run app.py'
+
+The prompt will open a browser page where users can input a movie name, release date and a brief description to check what genre it belongs to.
+
+Learning Algorithm used: Logistic Regression using One vs all method
+Libraries used: 1. scikit-learn (for machine learning model training)
+                2. numpy (for performing operation on number arrays)
+                3. pandas (for creating and manipulating dataframes)
+                4. streamlit (for creating and hosting the web app for the model, ready to be deployed!!!!)
